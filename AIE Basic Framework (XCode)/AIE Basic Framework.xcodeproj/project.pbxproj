@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599C3FA817EA83E50043D5D3 /* libs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 599C3FA717EA83E50043D5D3 /* libs */; };
+		59A9D49D1823381E007A844E /* libAIE_Framework.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9D49C1823381E007A844E /* libAIE_Framework.dylib */; };
+		59BFF5A918237DE80060C1C4 /* fonts in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59BFF5A618237DE80060C1C4 /* fonts */; };
+		59BFF5AA18237DE80060C1C4 /* images in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59BFF5A718237DE80060C1C4 /* images */; };
+		59BFF5AB18237DE80060C1C4 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59BFF5A818237DE80060C1C4 /* shaders */; };
+		DB8CFE9519BBB599001369D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8CFE9319BBB599001369D5 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		599C3F8617EA7E040043D5D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				59BFF5A918237DE80060C1C4 /* fonts in CopyFiles */,
+				59BFF5AA18237DE80060C1C4 /* images in CopyFiles */,
+				59BFF5AB18237DE80060C1C4 /* shaders in CopyFiles */,
+				599C3FA817EA83E50043D5D3 /* libs in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		599C3F8817EA7E040043D5D3 /* AIE Basic Framework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AIE Basic Framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599C3F9617EA7E4B0043D5D3 /* AIE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIE.h; path = libs/usr/local/include/AIE.h; sourceTree = "<group>"; };
+		599C3FA717EA83E50043D5D3 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libs; sourceTree = "<group>"; };
+		59A9D49C1823381E007A844E /* libAIE_Framework.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAIE_Framework.dylib; path = libs/libAIE_Framework.dylib; sourceTree = "<group>"; };
+		59BFF5A618237DE80060C1C4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = resources/fonts; sourceTree = "<group>"; };
+		59BFF5A718237DE80060C1C4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = resources/images; sourceTree = "<group>"; };
+		59BFF5A818237DE80060C1C4 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = resources/shaders; sourceTree = "<group>"; };
+		DB8CFE9319BBB599001369D5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		DB8CFE9419BBB599001369D5 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599C3F8517EA7E040043D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9D49D1823381E007A844E /* libAIE_Framework.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599C3F7F17EA7E040043D5D3 = {
+			isa = PBXGroup;
+			children = (
+				F91780CA182756870079EBB6 /* AIE Basic Framework */,
+				59BFF5AD18237DF80060C1C4 /* lib */,
+				59BFF5AC18237DED0060C1C4 /* resources */,
+				599C3F8917EA7E040043D5D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599C3F8917EA7E040043D5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599C3F8817EA7E040043D5D3 /* AIE Basic Framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BFF5AC18237DED0060C1C4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				59BFF5A618237DE80060C1C4 /* fonts */,
+				59BFF5A718237DE80060C1C4 /* images */,
+				59BFF5A818237DE80060C1C4 /* shaders */,
+				599C3FA717EA83E50043D5D3 /* libs */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		59BFF5AD18237DF80060C1C4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				599C3F9617EA7E4B0043D5D3 /* AIE.h */,
+				59A9D49C1823381E007A844E /* libAIE_Framework.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		F91780CA182756870079EBB6 /* AIE Basic Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DB8CFE9319BBB599001369D5 /* main.cpp */,
+				DB8CFE9419BBB599001369D5 /* main.h */,
+			);
+			path = "AIE Basic Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599C3F8717EA7E040043D5D3 /* AIE Basic Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599C3F9117EA7E040043D5D3 /* Build configuration list for PBXNativeTarget "AIE Basic Framework" */;
+			buildPhases = (
+				599C3F8417EA7E040043D5D3 /* Sources */,
+				599C3F8517EA7E040043D5D3 /* Frameworks */,
+				599C3F8617EA7E040043D5D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AIE Basic Framework";
+			productName = AIE_Test;
+			productReference = 599C3F8817EA7E040043D5D3 /* AIE Basic Framework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599C3F8017EA7E040043D5D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AIE;
+			};
+			buildConfigurationList = 599C3F8317EA7E040043D5D3 /* Build configuration list for PBXProject "AIE Basic Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 599C3F7F17EA7E040043D5D3;
+			productRefGroup = 599C3F8917EA7E040043D5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599C3F8717EA7E040043D5D3 /* AIE Basic Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599C3F8417EA7E040043D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8CFE9519BBB599001369D5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		599C3F8F17EA7E040043D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		599C3F9017EA7E040043D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		599C3F9217EA7E040043D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/./libs";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libs/";
+				PRODUCT_NAME = "AIE Basic Framework";
+			};
+			name = Debug;
+		};
+		599C3F9317EA7E040043D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/./libs";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libs/";
+				PRODUCT_NAME = "AIE Basic Framework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599C3F8317EA7E040043D5D3 /* Build configuration list for PBXProject "AIE Basic Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599C3F8F17EA7E040043D5D3 /* Debug */,
+				599C3F9017EA7E040043D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599C3F9117EA7E040043D5D3 /* Build configuration list for PBXNativeTarget "AIE Basic Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599C3F9217EA7E040043D5D3 /* Debug */,
+				599C3F9317EA7E040043D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 599C3F8017EA7E040043D5D3 /* Project object */;
+}

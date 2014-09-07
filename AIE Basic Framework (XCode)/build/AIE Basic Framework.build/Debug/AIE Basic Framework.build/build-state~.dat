@@ -1,0 +1,159 @@
+TAIE Basic Framework
+v7
+r0
+t431472651.783711
+cCheck dependencies
+cCompileC "build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/main.o" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cPBXCp build/Debug/fonts resources/fonts
+cPBXCp build/Debug/images resources/images
+cPBXCp build/Debug/shaders resources/shaders
+cPBXCp build/Debug/libs libs
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAC72CA00000000000000EE
+t1269592778
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004B738B7E0000000000000DCB
+t1265863550
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004B738B7F000000000000178E
+t1265863551
+s6030
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp
+c0000000052771CBF0000000000000290
+t1383537855
+s656
+i"AIE.h"
+i<string>
+i<cmath>
+i<time.h>
+i<assert.h>
+i<crtdbg.h>
+i<iostream>
+i<list>
+i<string>
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/AIE Basic Framework.LinkFileList
+c000000005407888A0000000000000096
+t1409779850
+s150
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/AIE Basic Framework
+t2
+s0
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/fonts
+t1409779851
+s136
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/images
+t1409779851
+s102
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/libs
+t1409779851
+s136
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/shaders
+t1409779851
+s204
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs
+c00000000540787F700000000000000AA
+t1409779703
+s170
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/libAIE_Framework.dylib
+c000000005277072D0000000000115180
+t1383532333
+s1134976
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h
+c000000005277072D0000000000002BF5
+t1383532333
+s11253
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/fonts
+c000000005277072E0000000000000088
+t1383532334
+s136
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/images
+c000000005277072E0000000000000066
+t1383532334
+s102
+
+N/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/shaders
+c000000005277073200000000000000CC
+t1383532338
+s204
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies431472650#431472650#0(153"[WARN]Mac OS X deployment target '10.8' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.1(22@146"Mac OS X deployment target '10.8' for architecture 'i386' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.431472650#18446744073709551615#0#0(1@0"0(0#1#0"17196341760#0"0#
+
+CCompileC "build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/main.o" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s431472650.267912
+e431472651.698360
+r0
+xCompileC
+xbuild/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/main.o
+x/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+occ1plus: warning: -Wuninitialized is not supported without -O
+oIn file included from /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp:3:
+o/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h:303: error: 'nullptr' was not declared in this scope
+o/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h:363: error: 'nullptr' was not declared in this scope
+lSLF07#2@95"Compile /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp431472650#431472651#0(457"cc1plus: warning: -Wuninitialized is not supported without -OIn file included from /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp:3:/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h:303: error: 'nullptr' was not declared in this scope/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h:363: error: 'nullptr' was not declared in this scope3(22@43"-Wuninitialized is not supported without -O431472650#0#62#0(6@0"431472650#0#0#0#0#0"0(4@40"'nullptr' was not declared in this scope431472651#175#141#2(7@109"In file included from /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp431472651#18446744073709551615#0#0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp405230655#3#0#3#0#0"0(13@131"'nullptr' was not declared in this scope in /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h431472651#18446744073709551615#0#0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h405225133#303#0#303#0#0"0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h405225133#303#0#303#0#34"'*' was not declared in this scope0(4@40"'nullptr' was not declared in this scope431472651#316#141#2(7@109"In file included from /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp431472651#18446744073709551615#0#0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp405230655#3#0#3#0#0"0(13@131"'nullptr' was not declared in this scope in /Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h431472651#18446744073709551615#0#0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h405225133#363#0#363#0#0"0(6@87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs/usr/local/include/AIE.h405225133#363#0#363#0#34"'*' was not declared in this scope0(0#0#87"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp17194114048#1789"    cd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.8 -gdwarf-2 -iquote "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/AIE Basic Framework-generated-files.hmap" "-I/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/AIE Basic Framework-own-target-headers.hmap" "-I/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/AIE Basic Framework-all-target-headers.hmap" -iquote "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/AIE Basic Framework-project-headers.hmap" "-F/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug" "-I/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/include" "-I/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/DerivedSources/i386" "-I/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/DerivedSources" -c "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/AIE Basic Framework/main.cpp" -o "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/AIE Basic Framework.build/Debug/AIE Basic Framework.build/Objects-normal/i386/main.o"1#
+
+CLd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug/AIE Basic Framework" normal i386
+r0
+
+CPBXCp build/Debug/fonts resources/fonts
+s431472651.698685
+e431472651.783367
+r1
+xPBXCp
+xbuild/Debug/fonts
+xresources/fonts
+lSLF07#2@20"Copy resources/fonts431472651#431472651#0(0"0(0#0#74"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/fonts17194525440#380"    cd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/fonts" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug"0#
+
+CPBXCp build/Debug/images resources/images
+s431472651.700887
+e431472651.757634
+r1
+xPBXCp
+xbuild/Debug/images
+xresources/images
+lSLF07#2@21"Copy resources/images431472651#431472651#0(0"0(0#0#75"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/images4317954048#381"    cd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/images" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug"0#
+
+CPBXCp build/Debug/libs libs
+s431472651.705640
+e431472651.779717
+r1
+xPBXCp
+xbuild/Debug/libs
+xlibs
+lSLF07#2@9"Copy libs431472651#431472651#0(0"0(0#0#63"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs4317954048#369"    cd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/libs" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug"0#
+
+CPBXCp build/Debug/shaders resources/shaders
+s431472651.702921
+e431472651.765983
+r1
+xPBXCp
+xbuild/Debug/shaders
+xresources/shaders
+lSLF07#2@22"Copy resources/shaders431472651#431472651#0(0"0(0#0#76"/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/shaders4317954048#382"    cd "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/resources/shaders" "/Users/Maxx/GitHub/session_one/AIE Basic Framework (XCode)/build/Debug"0#
+
