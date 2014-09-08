@@ -35,12 +35,14 @@ enum GAMESTATES
     eEND,
 };
 
-GAMESTATES eCurrentState = eMAIN_MENU;
+GAMESTATES eCurrentState;
 
 
 int main ( int argc, char* argv[]) // main
-
 {
+    eCurrentState = GAMESTATES::eMAIN_MENU;
+
+
 	Initialise(iScreenWidth, iScreenHeight, false, "Space Invaders"); // open screen
     unsigned int iArcadeMarquee = CreateSprite ("./images/ispaceInvaderMarquee.png", marqueeWidth, marqueeHeight, true);
     unsigned int iPlayerCannon = CreateSprite("./images/cannon.png", iPlayerCannonWidth, iPlayerCannonHeight, true); // call player icon
@@ -56,19 +58,17 @@ int main ( int argc, char* argv[]) // main
     switch ( eCurrentState )
     
     {
-        case eMAIN_MENU:
+        case GAMESTATES::eMAIN_MENU:
             DrawSprite(iArcadeMarquee); //add int and path for iArcadeMarquee
             //DrawString( pkInsertCoins, iScreenWidth * 0.37f, iScreenHeight * 0.5f, 0.75); //add int for pkInsertcoin
             DrawString( pkCredit, iScreenWidth * 0.25f, iScreenHeight *0.4f, 0.7f);
             if( IsKeyDown(KEY_ENTER))
-            {
-                eCurrentState = eGAMEPLAY;
-            }
+          
             break;
             
-           
-
-        case eGAMEPLAY:
+            
+        
+        case GAMESTATES::eGAMEPLAY:
             
     //GAME LOOP
 	
@@ -121,13 +121,15 @@ int main ( int argc, char* argv[]) // main
         
         break;
         
-    case eEND:
+    case GAMESTATES::eEND:
     
         {
             eCurrentState = eMAIN_MENU;
         }
         break;
-
+    default:
+        std::cout << "Default Case";
+        break;
 		
 	} while
 		
