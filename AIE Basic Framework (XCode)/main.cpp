@@ -40,7 +40,7 @@ GAMESTATES eCurrentState;
 
 int main ( int argc, char* argv[]) // main
 {
-    eCurrentState = GAMESTATES::eMAIN_MENU;
+    eCurrentState = GAMESTATES::eGAMEPLAY;
 
 
 	Initialise(iScreenWidth, iScreenHeight, false, "Space Invaders"); // open screen
